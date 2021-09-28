@@ -1,105 +1,588 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Boxiang Wang's Homepage</title>
-<meta charset = "utf-8">
-<style>
-body {font-family:Verdana, Arial, sans-serif;
-      background-color: #986437;
-}
-#wrapper { background-color: #eee3b0; 
-           color: #000066;
-           width: 80%;
-		   margin: auto;
-           min-width:850px;
-} 
-#leftcolumn { float: left;
-	          width: 150px;
-			  background-color: #e2d1b2;
-			  color: #4d3a4a;
-} 
-#rightcolumn { margin-left: 155px;
-               background-color: #f5f5dd;
-               color: #4d3a4a;
-} 
-header{ 
-		font_family: Brush Script MT Italic;
-		background-color: #d1b38e;
-        color: #986437; 
-        font-size: 150%; 
-        padding: 10px 10px 10px 155px;
-
-}
-h2 { color: #4d3a4a; 
-     font-family: arial, sans-serif;
-}
-.content {padding: 20px 20px 20px 20px; 
-} 
-#floatleft { margin: 10px;
-             float: left;
-}
-
-footer {
-		background-color: #d1b38e;
-		font-size:70%;
-		color: #4d3a4a;
-         text-align: center;
-		 clear: right;
-         padding: 10px 10px 10px 20px;
-}	
-nav ul { list-style-type: none;
-}
-nav a {text-decoration: none;
-}
-nav {position:fixed;}
-a:link {color: #b88f6d;}
-a:visited {color: #875d48;}
-
-</style> 
-</head>
-<body>
-    <h1>Welcome to my part of the world</h1>
-        
-    <a href="CV.pdf">My CV</a>
-<div id="wrapper">
-  <header>
-    <h1 style="font_family: Brush Script MT Italic;">JavaJam Coffee House</h1>
-  </header>
-  <div id="leftcolumn">
-  <nav>
-    <ul>
-      <li><a href="index.html"><strong>Home</strong></a></li>
-      <li><a href="menu.html"><strong>Menu</strong></a></li>
-      <li><a href="music.html"><strong>Music</strong></a></li>
-      <li><a href="job.html"><strong>Jobs</strong></a></li>
-	</ul>
-  </nav>	
-  </div>
-  <div id="rightcolumn">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+    <style type="text/css">
+      /* Color scheme stolen from Sergey Karayev */
   
-  <div class='content'>
- <p style="margin-left: 25px"><strong> Follow the Winding Road to JavaJam </strong></p>
-  <img src="lighthouseisland.jpg" width="300" height="150" align="left" HSPACE="30" VSPACE="5" alt="Lighthouse Island">
+      a {
+        color: #1772d0;
+        text-decoration: none;
+      }
+  
+      a:focus,
+      a:hover {
+        color: #f09228;
+        text-decoration: none;
+      }
+  
+      body,
+      td,
+      th,
+      tr,
+      p,
+      a {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px
+      }
+  
+      strong {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+  
+      heading {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 22px;
+      }
+  
+      papertitle {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 700
+      }
+  
+      name {
+        font-family: 'Lato', Verdana, Helvetica, sans-serif;
+        font-size: 32px;
+      }
+  
+      .one {
+        width: 160px;
+        height: 160px;
+        position: relative;
+      }
+  
+      .two {
+        width: 160px;
+        height: 160px;
+        position: absolute;
+        transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -webkit-transition: opacity .2s ease-in-out;
+      }
+  
+      .fade {
+        transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        -webkit-transition: opacity .2s ease-in-out;
+      }
+  
+      span.highlight {
+        background-color: #ffffd0;
+      }
+    </style>
+    <style type="text/css">
+      #sectiontohide {
+        padding: 20px;
+        background: #f0f0f0;
+        width: 400px;
+      }
+    </style>
+    <script type="text/javascript">
+      function toggle_div_fun(id) {
+  
+        var divelement = document.getElementById(id);
+  
+        if (divelement.style.display == 'none')
+          divelement.style.display = 'block';
+        else
+          divelement.style.display = 'none';
+      }
+    </script>
+    <link rel="icon" type="image/png" href="pictures/stanford.png">
+    <title>Kaidi Cao</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
-
-<table>
-<tr><td><ul style="list-style-image: url(trillium.gif);"> 
-<li> Speciality Coffee and Tea </li>
-<li> Bagels, Muffins and Organic Snacks </li>
-<li> Music and Poetry Readings </li>
-<li> Open Mic Night Every Friday </li></ul></td></tr>
-
-
-<tr><td style="padding-left:15px">
-54321 Route 42 <br> Ellison Bay, WI 54210
-</td></tr>
-</table>
-
-
-	</div>
-	<footer>
-  <small><i> Copyright &copy; 2014 JavaJam Coffee House <br> <a href="mailto:jingxi@xiong.com"> jingxi@xiong.com </a> </i></small>
-    </footer>
-</div>
-</body>
+  </head>
+  
+  <body>
+    <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
+      <tbody><tr>
+        <td>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody><tr>
+              <td width="67%" valign="middle">
+                <p align="center">
+                  <name>Kaidi Cao</name>
+                </p>
+                <p>
+                  I am a Computer Science Ph.D. student at Stanford University, advised by <a href="https://cs.stanford.edu/people/jure/">Prof. Jure Leskovec</a>. I did my bachelors at Tsinghua University.
+                </p>
+                <p>
+                  My research interests lie generally in the area of Machine Learning, including graph representation learning and efficient, robust learning algorithms. Feel free to reach out to me through email.
+                </p>
+                <p align="center">
+                  <a href="mailto:kaidicao@cs.stanford.edu"> Email </a> /
+                  <a href="https://www.linkedin.com/in/kaidi-cao-398131117/"> LinkedIn </a> /
+                  <a href="https://scholar.google.com/citations?user=4Zw1PJ8AAAAJ&amp;hl=en"> Google Scholar </a> /
+                  <a href="https://github.com/kaidic"> Github </a> /
+                  <a href="https://ginqaq.blogspot.com/"> Blog </a>
+                </p>
+              </td>
+              <td width="33%">
+                <img src="pictures/kaidi_circle.jpeg">
+              </td>
+            </tr>
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody><tr>
+              <td width="100%" valign="middle">
+                <heading>Publications</heading>
+              </td>
+            </tr>
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/ORCA.png" alt="dise" width="160" height="60">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Open-World Semi-Supervised Learning</papertitle>
+                  <br>
+                  <strong>Kaidi Cao*</strong>, Maria Brbić*, Jure Leskovec
+                  <br>
+                  <em>arXiv:2102.03526</em>, 2021
+                  <br>
+                  <a href="https://arxiv.org/pdf/2102.03526.pdf">[pdf]</a>
+                  <br>
+                  </p><p>
+                    We propose a pipeline that recognizes previously seen classes and discovers novel, never-before-seen classes at the same time.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/HAR.png" alt="dise" width="160" height="120">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Heteroskedastic and Imbalanced Deep Learning with Adaptive Regularization</papertitle>
+                  <br>
+                  <strong>Kaidi Cao</strong>, Yining Chen, Junwei Lu, Nikos Arechiga, Adrien Gaidon, Tengyu Ma
+                  <br>
+                  <em>International Conference on Learning Representations (ICLR)</em>, 2021
+                  <br>
+                  <a href="https://arxiv.org/pdf/2006.15766.pdf">[pdf]</a>
+                  <a href="https://github.com/kaidic/HAR">[code]</a>
+                  <br>
+                  </p><p>
+                    We propose a data-dependent regularization technique for heteroskedastic and imbalanced datasets.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/comet.jpg" alt="dise" width="160" height="60">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Concept Learners for Few-Shot Learning</papertitle>
+                  <br>
+                  <strong>Kaidi Cao*</strong>, Maria Brbić*, Jure Leskovec
+                  <br>
+                  <em>International Conference on Learning Representations (ICLR)</em>, 2021
+                  <br>
+                  <a href="https://openreview.net/pdf?id=eJIJF3-LoZO">[pdf]</a>
+                  <a href="https://github.com/snap-stanford/comet">[code]</a>
+                  <br>
+                  </p><p>
+                    COMET learns generalizable representations along human-understandable concept dimensions.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/crust.png" alt="dise" width="160" height="50">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Coresets for Robust Training of Neural Networks against Noisy Labels</papertitle>
+                  <br>
+                  Baharan Mirzasoleiman, <strong>Kaidi Cao</strong>, Jure Leskovec
+                  <br>
+                  <em>Neural Information Processing Systems (NeurIPS)</em>, 2020
+                  <br>
+                  <a href="https://proceedings.neurips.cc/paper/2020/file/8493eeaccb772c0878f99d60a0bd2bb3-Paper.pdf">[pdf]</a>
+                  <a href="https://github.com/snap-stanford/crust">[code]</a>
+                  <br>
+                  </p><p>
+                    We propose a theoretically-principled method to create sets of clean data to train a model with noisy labels.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/TAM.png" alt="dise" width="160" height="80">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Few-Shot Video Classification via Temporal Alignment</papertitle>
+                  <br>
+                  <strong>Kaidi Cao</strong>, Jingwei Ji*, Zhangjie Cao*, Chien-Yi Chang, Juan Carlos Niebles 
+                  <br>
+                  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2020
+                  <br>
+                  <a href="https://arxiv.org/pdf/1906.11415.pdf">[pdf]</a>
+                  <a href="https://drive.google.com/drive/folders/1eyQmM2ZPXYOH_tuvseFP7yHg7tnuixqw?usp=sharing">[split]</a>
+                  <br>
+                  </p><p>
+                    We propose a video few-shot learning framework that explicitly leverages the temporal ordering information in video data through temporal alignment.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/margin.png" alt="dise" width="160" height="130">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss</papertitle>
+                  <br>
+                  <strong>Kaidi Cao</strong>, Colin Wei, Adrien Gaidon, Nikos Arechiga, Tengyu Ma
+                  <br>
+                  <em>Neural Information Processing Systems (NeurIPS)</em>, 2019
+                  <br>
+                  <strong style="color:#e37222">Oral presentation at the <a href="http://www.baylearn.org/">Bay Area Machine Learning Symposium</a></strong>
+                  <br>
+                  <a href="https://arxiv.org/pdf/1906.07413.pdf">[pdf]</a>
+                  <a href="https://github.com/kaidic/LDAM-DRW">[code]</a>
+                  <br>
+                  </p><p>
+                    We design two novel methods to improve imbalanced training.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/semiproposal.png" alt="dise" width="160" height="100">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Learning Temporal Action Proposals with Fewer Labels</papertitle>
+                  <br>
+                  Jingwei Ji, <strong>Kaidi Cao</strong>, Juan Carlos Niebles
+                  <br>
+                  <em>International Conference on Computer Vision (ICCV)</em>, 2019
+                  <br>
+                  <a href="https://arxiv.org/pdf/1910.01286.pdf">[pdf]</a>
+                  <br>
+                  </p><p>
+                    We propose a semi-supervised learning algorithm for generating temporal action proposals.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/3d_recovery.png" alt="dise" width="160" height="80">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Delving Deep into Hybrid Annotations for 3D Human Recovery in the Wild </papertitle>
+                  <br>
+                  Yu Rong, Ziwei Liu, Cheng Li, <strong>Kaidi Cao</strong>, Chen Change Loy 
+                  <br>
+                  <em>International Conference on Computer Vision (ICCV)</em>, 2019
+                  <br>
+                  <a href="https://arxiv.org/pdf/1908.06442.pdf">[pdf]</a>
+                  <a href="https://penincillin.github.io/dct_iccv2019">[project page]</a>
+                  <a href="https://github.com/penincillin/DCT_ICCV-2019">[code]</a>
+                  <br>
+                  </p><p>
+                    We provided sufficient investigation of annotation design for in-the-wild 3D human reconstruction.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/transgaga.png" alt="transgaga" width="160" height="70">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Geometry-Aware Unsupervised Image-to-Image Translation</papertitle>
+                  <br>
+                  Wayne Wu, <strong>Kaidi Cao</strong>, Cheng Li, Chen Qian, Chen Change Loy
+                  <br>
+                  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2019
+                  <br>
+                  <a href="https://arxiv.org/pdf/1904.09571.pdf">[pdf]</a>
+                  <a href="https://wywu.github.io/projects/TGaGa/TGaGa.html">[project page]</a>
+                  <br>
+                  </p><p>
+                    We propose a geometry-aware framework for unsupervised image-to-image translation, which is robust to
+                    arbitrary shape
+                    variations between domains.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/dise.png" alt="dise" width="160" height="90">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Disentangling Content and Style via Unsupervised Geometry Distillation</papertitle>
+                  <br>
+                  Wayne Wu, <strong>Kaidi Cao</strong>, Cheng Li, Chen Qian, Chen Change Loy
+                  <br>
+                  <em>ICLR Workshop on Deep Generative Models for Highly Structured Data (ICLRW)</em>, 2019
+                  <br>
+                  <a href="https://arxiv.org/pdf/1905.04538.pdf">[pdf]</a>
+                  <br>
+                  </p><p>
+                    We present a framework to learn to disentangle the object into content and style in a completely unsupervised manner.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/sigasia2018.png" alt="sigasia2018" width="160" height="120">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>CariGANs: Unpaired Photo-to-Caricature Translation</papertitle>
+                  <br>
+                  <strong>Kaidi Cao</strong>, Jing Liao, Lu Yuan
+                  <br>
+                  <em>ACM Transactions on Graphics, (Proc. of Siggraph Asia)</em>, 2018
+                  <br>
+                  <a href="https://arxiv.org/pdf/1811.00222v2.pdf">[pdf]</a>
+                  <a href="https://cari-gan.github.io/">[project page]</a>
+                  <br>
+                  </p><p>
+                    We present the first deep learning-based approach to automatically generate the facial caricature for
+                    a given portrait photo.
+                  </p>
+                  <strong style="color:#e37222">Press Coverage: <a href="https://www.siggraph.org/discover/news/let%E2%80%99s-draw-new-deep-learning-technique-realistic-caricature-art"><img src="pictures/ACM_sigasia.jpg" height="20"></a> </strong>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/dream_mapping.jpg" alt="dream_mapping" width="160" height="80">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Pose-Robust Face Recognition via Deep Residual Equivariant Mapping</papertitle>
+                  <br>
+                  <strong>Kaidi Cao*</strong>, Yu Rong*, Cheng Li, Xiaoou Tang, Chen Change Loy
+                  <br>
+                  <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2018
+                  <br>
+                  <a href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Cao_Pose-Robust_Face_Recognition_CVPR_2018_paper.pdf">[pdf]</a><a href="http://mmlab.ie.cuhk.edu.hk/projects/DREAM/">[project page]</a><a href="https://github.com/penincillin/DREAM">[code]</a>
+                  <br>
+                  </p><p>
+                    We presented a Deep Residual EquivAriant Mapping (DREAM) block to improve the performance of face
+                    recognition on profile
+                    faces.
+                  </p>
+              </td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/cluster_pipeline.jpg" alt="cluster_pipeline" width="160" height="80">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Merge or Not? Learning to Group Faces via Imitation Learning</papertitle>
+                  <br> Yue He*,
+                  <strong>Kaidi Cao*</strong>, Cheng Li, Chen Change Loy
+                  <br>
+                  <em>AAAI Conference on Artificial Intelligence (AAAI, Spotlight)</em>, 2018
+                  <br>
+                  <a href="https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17134/16276">[pdf]</a><a href="https://github.com/bj80heyue/Learning-to-Group">[code]</a>
+                  <br>
+                  </p><p>
+                    We proposed a novel face grouping framework that makes sequential merging decision based on short-
+                    and long-term rewards
+                    via inverse reinforcement learning.
+                  </p>
+              </td>
+            </tr>
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td width="25%" align="center">
+                <img src="pictures/halide.png" alt="halide" width="160" height="120">
+              </td>
+              <td width="75%" valign="top">
+                <p>
+                  <papertitle>Interstellar: Using Halide's Scheduling Language to Analyze DNN Accelerators</papertitle>
+                  <br> Xuan Yang, Mingyu Gao, Jing Pu, Ankita Nayak, Qiaoyi Liu, Steven Emberton Bell, Jeff Ou Setter,
+                  <strong>Kaidi Cao</strong>, Heonjae Ha, Christos Kozyrakis, Mark Horowitz
+                  <br>
+                  <em>International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)</em>, 2020
+                  <br>
+                  <a href="https://arxiv.org/pdf/1809.04070.pdf">[pdf]</a>
+                  <br>
+                  </p><p>
+                    We develop an auto-optimizer for DNN that is closely coupled with the Halide framework.
+                  </p>
+              </td>
+            </tr>
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody><tr>
+              <td>
+                <heading>Course Projects</heading>
+              </td>
+            </tr>
+          </tbody></table>
+  
+          <table width="95%" align="center" border="0" cellspacing="0" cellpadding="10">
+            <tbody><tr>
+              <td>
+                <p>
+                  <papertitle>Reinforcement Learning in Memory MAB</papertitle>
+                  <br>
+                  with Yujia Jin and Linjia Wu
+                  <br>
+                  <a href="ms&amp;e338_report.pdf">[pdf]</a>  
+                  <br>
+              </p></td>
+            </tr>
+  
+          </tbody></table>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody><tr>
+              <td>
+                <heading>Academic Services</heading>
+              </td>
+            </tr>
+          </tbody></table>
+          <ul>
+            <li>
+              <p>Conference Reviewer: CVPR, ICCV, ECCV, AAAI, SIGGRAPH, NeurIPS, ICLR, ICML</p>
+            </li>
+            <li>
+               <p>Journal Reviewer: IJCV, TNNLS, PAMI</p>
+            </li>
+          </ul>
+  
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody><tr>
+              <td>
+                <heading>Teaching</heading>
+              </td>
+            </tr>
+          </tbody></table>
+          <ul>
+            <li>
+              <a href="http://cs230.stanford.edu/">
+                <papertitle>CS 230: Deep Learning - Winter 2019</papertitle>
+              </a><br>
+              Teaching Assistant (TA)
+              <br><br>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="http://cs231n.stanford.edu/">
+                <papertitle>CS 231N: Convolutional Neural Networks for Visual Recognition - Spring 2019</papertitle>
+              </a><br>
+              Teaching Assistant (TA)
+              <br><br>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="http://cs236.stanford.edu/">
+                <papertitle>CS 236: Deep Generative Models - Fall 2019</papertitle>
+              </a><br>
+              Teaching Assistant (TA)
+              <br><br>
+            </li>
+          </ul>
+  
+          <!-- Footer ================================================== -->
+          <hr>
+  
+          <footer class="footer">
+            <div class="container">
+              <p>
+                &nbsp;&nbsp;&nbsp;Updated Jul. 2021</p>
+              <p></p>
+              <p align="right">
+                <a href="https://jonbarron.info/"> Page Template </a>
+                <a class="pull-right" href="#">
+                  <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=TUgFrtOmtKYxWSVaYTURO0MNpu5rDq6I6q5sgBQjByU&amp;cl=ffffff&amp;w=a">
+                  </script><a target="_top" href="http://clustrmaps.com/site/1af3f?utm_source=widget&amp;utm_campaign=widget_ctr" id="clustrmaps-widget-v2" class="clustrmaps-map-control" style="width: 300px;"><div class="clustrmaps-map-container" style="background-color: rgb(45, 120, 173);"><div class="clstm clustrmaps-visitors" style="font-size: 12px; line-height: 16px; color: rgb(255, 255, 255);">858 Pageviews</div><div class="clstm clustrmaps-date" style="font-size: 12px; line-height: 16px; color: rgb(255, 255, 255);">Aug. 28th - Sep. 28th</div><div class="clustrmaps-map liveDotsReady" style="width: 300px; height: 147.059px; background-image: url(&quot;//clustrmaps.com/generated_content/backs/bg-w_300-cl_ffffff.png&quot;);"><div class="jvectormap-container" style="background-color: transparent;"><svg width="300" height="147"><defs></defs><g transform="scale(0.2777777777777778) translate(90, 44.2468446279335)"></g><g></g><g style="visibility: visible;"><circle data-index="0" cx="56.95726226965391" cy="64.12435548796506" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="4" class="jvectormap-marker jvectormap-element"></circle><circle data-index="1" cx="73.89011526879798" cy="63.86161422809906" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="3" class="jvectormap-marker jvectormap-element"></circle><circle data-index="2" cx="215.55680395483165" cy="76.58272570244853" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="3" class="jvectormap-marker jvectormap-element"></circle><circle data-index="3" cx="221.03547475938223" cy="66.2308310923087" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="4" cx="222.88727189049905" cy="62.0929486671847" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="5" cx="221.32997609481205" cy="75.67192914877228" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="6" cx="86.31725085970535" cy="61.66952927188384" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="7" cx="216.10894179154454" cy="83.876958616325" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="8" cx="226.07413246805905" cy="73.81746063704927" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="9" cx="221.32719384317835" cy="75.67470556911633" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="10" cx="225.51128296255638" cy="69.6985984183734" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="11" cx="92.47785153968198" cy="60.07424275736284" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="12" cx="226.37364185642963" cy="69.12414859514948" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="13" cx="221.34159199538286" cy="75.6962577483041" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="14" cx="214.16894728363857" cy="90.52831957960865" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="15" cx="90.48395090637263" cy="61.375604840719284" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="16" cx="57.142629784750866" cy="64.22864894526933" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="17" cx="80.5526341434987" cy="61.93905007352051" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="18" cx="87.75546628546888" cy="61.36759215702295" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="19" cx="214.1308999925474" cy="90.4769781849121" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="20" cx="221.31836019424125" cy="75.48916538910827" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="21" cx="56.85264960822582" cy="55.54596634005062" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="22" cx="195.48981404658673" cy="77.33199204041796" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="23" cx="220.70396947722384" cy="75.0618551835741" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="24" cx="241.54331243899097" cy="115.62366978387735" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="25" cx="226.45975254449343" cy="73.64528280617762" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="26" cx="221.4158085577125" cy="69.47986235031057" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="27" cx="239.06752582272037" cy="65.34282773557165" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="28" cx="215.6611383910964" cy="80.20491109405373" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="29" cx="80.57774396449307" cy="61.94381191300124" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="30" cx="141.84633319737935" cy="52.05166315783914" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="31" cx="56.351496532701034" cy="54.11208961553793" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="32" cx="86.1886412779364" cy="72.97369980354468" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="33" cx="89.6273651846394" cy="62.06761702441614" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="34" cx="80.93707176298871" cy="60.48105776921042" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="35" cx="56.803334198018035" cy="63.8340862334713" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="36" cx="89.18936922120017" cy="57.54226553496328" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="37" cx="83.7049948008005" cy="60.10842399985203" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="38" cx="57.01144662022071" cy="64.15501301144329" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="39" cx="195.71934980636905" cy="70.99884438461413" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="40" cx="201.27460208713785" cy="71.64889177517647" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="41" cx="230.25286575304216" cy="63.984270366518324" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="42" cx="76.81154904050058" cy="60.765388588423285" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="43" cx="221.35313833966282" cy="75.62318794352538" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="44" cx="221.35313833966282" cy="75.63539288611568" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="45" cx="69.09970396214031" cy="61.68673673562857" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="46" cx="90.76134139425506" cy="57.398317392688035" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="47" cx="81.93909968887495" cy="60.62908113538222" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="48" cx="239.1373603387269" cy="65.51075337404075" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="49" cx="87.77744607337533" cy="61.37444841383428" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="50" cx="60.13883656910984" cy="67.10160074421589" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="51" cx="230.2540482099865" cy="64.00717619514867" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="52" cx="147.49597336482225" cy="56.100499832263694" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="53" cx="91.2082405629222" cy="60.9543662245845" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="54" cx="90.41376860891191" cy="61.41590553489515" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="55" cx="57.14499469863955" cy="64.05096388904184" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="56" cx="59.685329552812576" cy="66.79410116681967" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="57" cx="192.6279900161367" cy="78.00024258391255" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="58" cx="226.09458201756695" cy="74.78047540855421" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="59" cx="144.945552848477" cy="52.662170870092545" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="60" cx="90.49876639632221" cy="61.43786532052568" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="61" cx="195.89553589107473" cy="82.34708711892023" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="62" cx="214.31640662022602" cy="69.41366707172965" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="63" cx="247.10072096477595" cy="115.90853631381657" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="64" cx="152.36491372384185" cy="41.618261805030315" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="65" cx="73.94930767230551" cy="69.69669143582706" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="66" cx="195.65083685988859" cy="70.94455747694875" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="67" cx="216.77403904458657" cy="79.87177028510095" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="68" cx="225.61735630609218" cy="75.42953963534698" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="69" cx="87.2591821503031" cy="65.45023947363023" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="70" cx="74.96009969083798" cy="69.48987255036953" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="71" cx="87.33743297750165" cy="63.63512550506347" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="72" cx="56.97332977283868" cy="64.09144033574094" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="73" cx="223.4352363497613" cy="62.73552736184961" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="74" cx="142.02293661983006" cy="51.37586303273183" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="75" cx="144.96968888139958" cy="52.6611621552084" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="76" cx="59.76997955876869" cy="66.70401538664956" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="77" cx="74.35509907308436" cy="53.587705880674754" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="78" cx="195.11887034752027" cy="84.94067070785738" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="79" cx="226.43485139237154" cy="68.96684554516571" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="80" cx="220.91263834975325" cy="75.73278035900144" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="81" cx="146.08982338913745" cy="53.876475652630276" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="82" cx="75.57080392444072" cy="69.97243605048689" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="83" cx="83.16760289774643" cy="59.76190005850732" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="84" cx="57.210308055741244" cy="63.669482760801515" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="85" cx="58.55914364777135" cy="66.50259741017496" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="86" cx="56.911981124315034" cy="64.08589988849891" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="87" cx="61.879760972622705" cy="65.20004759312212" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="88" cx="56.93319579302221" cy="55.56284767945948" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="89" cx="158.43947327204552" cy="63.67448211312495" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="90" cx="197.77021704187894" cy="82.27317997099357" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="91" cx="196.5153519987779" cy="79.22171851731389" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="92" cx="224.91636800697503" cy="72.8864951007036" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="93" cx="230.5598872208238" cy="65.00559980664109" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="94" cx="148.88709918168502" cy="47.76662503489775" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="95" cx="150.0324130667081" cy="55.11709109898711" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="96" cx="143.56604293218504" cy="54.450839533531905" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="97" cx="78.09875775884367" cy="63.70020057669944" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="98" cx="83.73219131052016" cy="59.89407231740798" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="99" cx="88.72327251626031" cy="60.01078847534324" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="100" cx="63.98140430044809" cy="67.36723525596469" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="101" cx="57.099226659264765" cy="64.14923534974187" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="102" cx="56.92672705797379" cy="55.43885107111557" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="103" cx="198.2185768926538" cy="72.30629268709984" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="104" cx="222.11248436679736" cy="62.12499285865868" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="105" cx="242.7431584560351" cy="119.06310730351882" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="106" cx="147.87853296445954" cy="55.77793065100486" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="107" cx="83.27854518164123" cy="66.97155011759637" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="108" cx="64.08518228638604" cy="67.31204140090625" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="109" cx="56.98932771973259" cy="64.16030890783426" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="110" cx="56.19499487830397" cy="58.211457306356856" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="111" cx="166.1138970659322" cy="68.33836774364963" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="112" cx="216.04564556687725" cy="70.25477645202898" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="113" cx="83.62514417891259" cy="66.82171461281627" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="114" cx="88.64703882149622" cy="62.586746536615536" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="115" cx="89.5175358013981" cy="61.54923513493604" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="116" cx="64.758765406911" cy="68.19869646307896" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="117" cx="56.77669413862513" cy="63.93980995467136" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="118" cx="57.08135069251806" cy="63.37301806796282" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="119" cx="64.15557325271931" cy="60.62441742784723" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="120" cx="62.712419330305906" cy="52.586572068410476" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="121" cx="56.26190803009508" cy="54.20878016432469" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="122" cx="177.69947109392845" cy="65.50196361553283" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="123" cx="164.78307655323044" cy="62.08409566407656" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="124" cx="192.68530439979142" cy="77.90894404251256" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="125" cx="216.13592963239165" cy="76.71100890269739" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="126" cx="217.6981639247285" cy="66.63446278876509" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="127" cx="221.2488039033981" cy="75.5622956699655" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="128" cx="221.31836019424125" cy="75.62318794352538" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="129" cx="239.00381226030808" cy="65.49404427931503" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="130" cx="214.06356950301122" cy="90.48998754765194" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="131" cx="168.09618179867076" cy="48.01126644881468" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="132" cx="248.367549689902" cy="111.02366251001598" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="133" cx="141.1000637529233" cy="50.64992522951165" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="134" cx="141.1785232489944" cy="52.26950791247572" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="135" cx="147.81808854771685" cy="55.74425410862086" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="136" cx="108.31157603092281" cy="104.81795384233936" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="137" cx="81.51515409618604" cy="67.23874444526027" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="138" cx="84.5771611316826" cy="71.42043103793972" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="139" cx="83.3046287907074" cy="66.9843590650334" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="140" cx="88.45075096873688" cy="62.913987673679195" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="141" cx="83.20537196367425" cy="62.73813263210295" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="142" cx="74.40587516539985" cy="67.82981993711226" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="143" cx="81.4814192951271" cy="61.68459626739152" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="144" cx="92.01801490091802" cy="59.93990437521896" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="145" cx="90.3291186029558" cy="61.4055017106603" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="146" cx="88.97645741492931" cy="59.43587840679035" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="147" cx="79.75892730868765" cy="59.471993867409914" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="148" cx="56.94515947504722" cy="64.10789926929195" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="149" cx="57.052693500690694" cy="64.03634335179353" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="150" cx="56.84673732350417" cy="64.0038009308279" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="151" cx="85.4293648070927" cy="59.57494287809892" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="152" cx="86.69021169120626" cy="58.978593884658274" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="153" cx="86.71267837314858" cy="58.99717221374327" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="154" cx="168.0954862357623" cy="48.00911728364753" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="155" cx="203.4390547455946" cy="72.40290175851717" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="156" cx="190.09878416849853" cy="60.947976457121044" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="157" cx="217.12182049880224" cy="83.79315300836134" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="158" cx="217.2063313921767" cy="80.15604550876822" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="159" cx="225.78909078818387" cy="69.43950744470106" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="160" cx="223.50764444852896" cy="68.49474656291436" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="161" cx="231.91296574659532" cy="65.23546338936879" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="162" cx="237.9191514609002" cy="65.26102509658648" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="163" cx="225.8131572648156" cy="68.92531816739657" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="164" cx="227.78563456054528" cy="60.562517272627154" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="165" cx="138.9700414584339" cy="47.93092154529923" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="166" cx="141.2021028315902" cy="51.751376344266845" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="167" cx="90.41613352280055" cy="88.19157704707104" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="168" cx="85.13486347166287" cy="69.6691512655112" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="169" cx="83.90900340184342" cy="66.87879671701637" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="170" cx="83.3139493336804" cy="67.41843435495703" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="171" cx="84.330444968062" cy="62.071634471204334" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="172" cx="85.9985439350621" cy="64.2803542328719" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="173" cx="92.5112385592867" cy="60.07985675082837" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="174" cx="92.48021645357065" cy="59.9394847747833" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="175" cx="90.42051556912368" cy="61.38477314144646" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="176" cx="90.68962885839578" cy="59.77005623826054" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="177" cx="56.818149687967626" cy="63.99584449736099" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="178" cx="56.46821198873582" cy="63.16744454976105" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="179" cx="56.79317897955495" cy="63.982743123613446" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="180" cx="59.69541521498485" cy="66.36342284855466" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="181" cx="60.40287224915037" cy="67.72498143728214" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="182" cx="57.04754633516832" cy="64.16873361914298" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="183" cx="94.63319232403826" cy="71.43592993686296" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="184" cx="180.39936807929564" cy="73.48305541628928" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="185" cx="204.79241149652952" cy="74.63212886733552" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="186" cx="193.30254692473343" cy="78.40011378847288" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="187" cx="192.42036448796992" cy="75.12719087186662" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="188" cx="215.42826392935356" cy="78.29504083112377" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="189" cx="215.79559070129616" cy="76.4070709485687" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="190" cx="214.1192840919766" cy="73.31611895884402" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="191" cx="220.62335373613666" cy="75.12638442370985" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="192" cx="221.34159199538286" cy="75.64752383610238" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="193" cx="230.27484554094863" cy="64.23522381139124" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="194" cx="221.83293763389875" cy="62.79201329002345" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="195" cx="229.10136135813406" cy="58.79548253283791" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="196" cx="141.848698111268" cy="52.04121671698224" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="197" cx="141.91345501804295" cy="52.10359660620621" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="198" cx="145.33972834868501" cy="51.24282850403666" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="199" cx="148.53305766129347" cy="52.23364351161503" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="200" cx="143.43319041667465" cy="60.88845545276787" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="201" cx="91.12059963645986" cy="118.25786444773746" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="202" cx="77.08803529660204" cy="69.79185148016859" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="203" cx="92.35584980554312" cy="60.11989859442468" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="204" cx="82.31804236138835" cy="59.61344409864508" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="205" cx="90.65874586526142" cy="61.10601286248618" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="206" cx="90.53952638275629" cy="61.41268542869574" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="207" cx="84.08971064545389" cy="62.007170632673926" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="208" cx="59.13333082868146" cy="66.66728652600216" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="209" cx="57.16287066538622" cy="64.1112710083215" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="210" cx="56.55063619338493" cy="63.343734764365024" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="211" cx="87.02526434419764" cy="58.80236894001805" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="212" cx="173.23180097678292" cy="73.67430163958899" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="213" cx="194.9449796204124" cy="84.08620462488653" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="214" cx="201.32996889464903" cy="72.84346800492085" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="215" cx="195.15364849294184" cy="84.74189279967874" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="216" cx="195.3472236503583" cy="69.36342295698964" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="217" cx="200.3587544056063" cy="71.43592993686296" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="218" cx="212.3803768208982" cy="82.5708810759343" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="219" cx="224.54890212245076" cy="68.34222578840311" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="220" cx="214.3883973812487" cy="64.82592897900422" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="221" cx="221.35313833966282" cy="75.59884840035397" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="222" cx="239.0504845314638" cy="65.48485709507872" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="223" cx="218.84146067731717" cy="76.37433381870778" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="224" cx="222.53656907206792" cy="114.39888088091269" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="225" cx="245.659584174797" cy="117.02657716095402" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="226" cx="146.87678326373668" cy="52.92956131146733" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="227" cx="152.36491372384185" cy="56.97375650955407" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="228" cx="94.52934478180947" cy="103.00748555559844" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="229" cx="85.45343128372446" cy="71.05122191597394" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="230" cx="90.12782269725577" cy="62.4520246542695" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="231" cx="82.65281678921637" cy="66.04963643781079" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="232" cx="74.36928855641636" cy="67.44900251712596" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="233" cx="92.50984743346982" cy="60.032252303526" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="234" cx="90.56025415742755" cy="61.341070996853716" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="235" cx="78.27828254550982" cy="58.05629514088957" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle><circle data-index="236" cx="56.60057761021031" cy="57.385525424788995" fill="#FF0000" stroke="#ffffff" fill-opacity="0.7" stroke-width="0.5" stroke-opacity="1" r="2" class="jvectormap-marker jvectormap-element"></circle></g><g></g></svg><div class="jvectormap-legend-cnt jvectormap-legend-cnt-h"></div><div class="jvectormap-legend-cnt jvectormap-legend-cnt-v"></div></div></div><div id="clstminf" style="display: table-cell;position: absolute;bottom: 3px;right: 5px;color: white;font-size: 12px;"></div></div><div class=""></div></a><style type="text/css">.jvectormap-container {    width: 100%;    height: 100%;    position: absolute;    overflow: hidden;}.jvectormap-tip {    position: absolute;    display: none;    border: solid 1px #CDCDCD;    border-radius: 3px;    background: #292929;    color: white;    font-family: Arial, Helvetica, sans-serif;    padding: 3px;    z-index: 9999;    font-size: 11px;    line-height: 13px;}.jvectormap-zoomin, .jvectormap-zoomout, .jvectormap-goback {    background: #ffffff none repeat scroll 0 0;    border: 1px solid #bebebe;    border-radius: 2px;    box-sizing: content-box;    color: #838383;    cursor: pointer;    font-weight: bold;    left: 10px;    padding: 3px;    position: absolute;    text-align: center;    z-index: 1;}.jvectormap-zoomin, .jvectormap-zoomout {    padding: 2px 10px;}.jvectormap-zoomin {    top: 10px;}.jvectormap-zoomout {    top: 37px;}.jvectormap-goback {    bottom: 10px;    z-index: 1000;    padding: 6px;}.jvectormap-spinner {    position: absolute;    left: 0;    top: 0;    right: 0;    bottom: 0;    background: center no-repeat url(data:image/gif;base64,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);}.jvectormap-legend-title {    font-weight: bold;    font-size: 14px;    text-align: center;}.jvectormap-legend-cnt {    position: absolute;}.jvectormap-legend-cnt-h {    bottom: 0;    right: 0;}.jvectormap-legend-cnt-v {    top: 0;    right: 0;}.jvectormap-legend {    background: black;    color: white;    border-radius: 3px;}.jvectormap-legend-cnt-h .jvectormap-legend {    float: left;    margin: 0 10px 10px 0;    padding: 3px 3px 1px 3px;}.jvectormap-legend-cnt-h .jvectormap-legend .jvectormap-legend-tick {    float: left;}.jvectormap-legend-cnt-v .jvectormap-legend {    margin: 10px 10px 0 0;    padding: 3px;}.jvectormap-legend-cnt-h .jvectormap-legend-tick {    width: 40px;}.jvectormap-legend-cnt-h .jvectormap-legend-tick-sample {    height: 15px;}.jvectormap-legend-cnt-v .jvectormap-legend-tick-sample {    height: 20px;    width: 20px;    display: inline-block;    vertical-align: middle;}.jvectormap-legend-tick-text {    font-size: 12px;}.jvectormap-legend-cnt-h .jvectormap-legend-tick-text {    text-align: center;}.jvectormap-legend-cnt-v .jvectormap-legend-tick-text {    display: inline-block;    vertical-align: middle;    line-height: 20px;    padding-left: 3px;}</style><style type="text/css">a#clustrmaps-widget-v2, #clustrmaps-widget-v2 {    display: block;    font-size: 11px;    line-height: 13px;    margin: 0 auto;    padding: 0;    position: relative;    text-align: center;    color: transparent;    min-height: 139px;    text-decoration: none;    /* text-shadow: 1px 1px 0 #01324f; */    border: 0 none;}.clustrmaps-map {    position: relative;}#clustrmaps-widget-v2 > .clustrmaps-map-container {    background-position: 0 0;    background-repeat: no-repeat;    position: relative;}#clustrmaps-widget-v2 > .clustrmaps-map-container > .clustrmaps-date {    text-align: center;    width: 100%;    z-index: 10;}#clustrmaps-widget-v2 > .clustrmaps-map-container > .clustrmaps-logo {    position: absolute;    background-image: url("//clustrmaps.com/assets/clustrmaps/img/logo4-small.png");    bottom: 0px;    background-repeat: no-repeat;    background-position: center center;    z-index: 1;    width: 100px;    height: 31px;    left: 0px;}#clustrmaps-widget-v2 > .clustrmaps-map-container > .clustrmaps-connection {    background-position: center center;    background-repeat: no-repeat;    bottom: 0;    color: rgba(255, 255, 255, 0.5);    padding: 4px 4px;    position: absolute;    right: 0;    z-index: 1;    font-variant: small-caps;}#clustrmaps-widget-v2 > .clustrmaps-bottom-text {    letter-spacing: 0px;    background: #FFFFFF;    color: #000000;    text-shadow: none;}#clustrmaps-widget-v2 > .clustrmaps-cursor-click {    background-position: center center;    background-repeat: no-repeat;    display: block;    height: 29px;    position: absolute;    right: 0;    top: 56px;    width: 30px;}#clustrmaps-widget-v2 > .clustrmaps-map-container > .clustrmaps-connection.clustrmaps-failed {    color: rgba(255, 0, 0, 0.8);}/*#clustrmaps-widget-v2 > .clustrmaps-map-container {    background-image: url("//clustrmaps.com/images/map_v2_loading.png");}*/#clustrmaps-widget-v2 > .clustrmaps-cursor-click {    background-image: url("//clustrmaps.com/assets/clustrmaps/img/cursor_click.png");}#clustrmaps-widget-v2 > .clustrmaps-bottom-text.variation {    display: none;}/* CONTROL *//*#clustrmaps-widget-v2.clustrmaps-map-control > .clustrmaps-map-container {    background-image: url("//clustrmaps.com/images/map_v2-control.png");}*/#clustrmaps-widget-v2.clustrmaps-map-control > .clustrmaps-bottom-text {    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;    border: 1px solid #999;    background: #F24D58;    background: -moz-linear-gradient(top, #FF636D 50%, #DD2929 50%);    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#f83737), color-stop(50%,#f83737));    background: linear-gradient(to bottom, #FF636D 50%,#DD2929 51%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF636D", endColorstr="#f83737",GradientType=0 );    display: block;    margin: 2px auto 0;    padding: 3px 14px;    color: #FFFFFF;    text-shadow: 1px 1px 0px #5B0000;    font-weight: 600;}#clustrmaps-widget-v2.clustrmaps-map-control  > .clustrmaps-bottom-text:hover {    border: 1px solid #888;    background: #a3f5a2;    background: -moz-linear-gradient(top,  #ed8b92 50%, #D76666 50%);    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ed8b92), color-stop(50%,#D76666));    background: linear-gradient(to bottom, #ed8b92 50%,#D76666 51%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ed8b92", endColorstr="#D76666",GradientType=0 );}#clustrmaps-widget-v2.clustrmaps-map-control > .clustrmaps-bottom-text.variation {    display: none;}.clstm {    text-transform: capitalize !important;    position: relative;}#clustrmaps-widget-v2.clustrmaps-map-variation > .clustrmaps-bottom-text {    -webkit-border-radius: 3px;    -moz-border-radius: 3px;    border-radius: 3px;    border: 1px solid #999;    background: #F24D58;    background: -moz-linear-gradient(top, #FF636D 50%, #DD2929 50%);    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#f83737), color-stop(50%,#f83737));    background: linear-gradient(to bottom, #FF636D 50%,#DD2929 51%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#FF636D", endColorstr="#f83737",GradientType=0 );    display: block;    margin: 2px auto 0;    padding: 3px 14px;    color: #FFFFFF;    text-shadow: 1px 1px 0px #5B0000;    font-weight: 600;}#clustrmaps-widget-v2.clustrmaps-map-variation > .clustrmaps-bottom-text {    display: none;}#clustrmaps-widget-v2.clustrmaps-map-variation > .clustrmaps-bottom-text.variation {    display: block;}#clustrmaps-widget-v2.clustrmaps-map-variation  > .clustrmaps-bottom-text:hover {    border: 1px solid #888;    background: #a3f5a2;    background: -moz-linear-gradient(top,  #ed8b92 50%, #D76666 50%);    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ed8b92), color-stop(50%,#D76666));    background: linear-gradient(to bottom, #ed8b92 50%,#D76666 51%);    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#ed8b92", endColorstr="#D76666",GradientType=0 );}.clustrmaps-visitors, .clustrmaps-date, .clustrmaps-bottom-text {    font-family: Arial, Helvetica, sans-serif;    text-align: center;    font-weight: normal;}.clustrmaps-bottom-text {    font-size: 12px;}</style>
+                </a>
+              </p>
+            </div>
+          </footer>
+  
+          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost +
+              "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script><script src="https://ssl.google-analytics.com/ga.js" type="text/javascript"></script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-7580334-1");
+              pageTracker._trackPageview();
+            } catch (err) {}
+          </script>
+        </td>
+      </tr>
+    </tbody></table>
+  
+  
+  <div class="jvectormap-tip"></div>
+  </body>
 </html>
