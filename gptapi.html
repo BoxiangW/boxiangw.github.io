@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-3 API Example</title>
+</head>
+
+<body>
+    <h1>GPT-3 API Example</h1>
+    <p>Enter a prompt and generate text:</p>
+    <textarea id="prompt" rows="5" cols="50"></textarea>
+    <button id="generate">Generate Text</button>
+    <h2>Generated Text:</h2>
+    <p id="generatedText"></p>
+
+    <script>
+        document.getElementById('generate').addEventListener('click', async () => {
+            const promptText = document.getElementById('prompt').value;
+            try {
+                const response = await fetch('/gpt3_proxy', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        prompt: promptText,
+                        max_tokens: 50,
+                        n: 1,
+                        stop: null,
+                        temperature: 1.0,
+                    }),
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error ${response.status}`);
+                }
+
+                const data = await response.json();
+                const completion = data.choices[0].text;
+                document.getElementById('generatedText').innerText = completion;
+            } catch (error) {
+                console.error('Error calling GPT-3 API:', error);
+                document.getElementById('generatedText').innerText = 'An error occurred while generating text.';
+            }
+        });
+    </script>
+</body>
+
+</html>
